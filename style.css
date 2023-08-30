@@ -11,7 +11,6 @@ body{
 
 .navbar-left{
     display: inline-block;
-    flex-direction: row-reverse;
     margin-top: 12px;
 }
 .navbar-text{
@@ -52,9 +51,32 @@ body{
 
 header{
     height: 90px;
-    box-shadow: 0 1px 3px rgba(0,0,0,.1), 0 2px 2px rgba(0,0,0,.06), 0 0 2px rgba(0,0,0,.07);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.502);
+    z-index: 2;
+    position: relative;
 }
 
 .img01{
+    position: absolute;
     width: 100vw;
+    z-index: 1;
+}
+
+.navbar-right{
+    
+    float: right;
+    margin-top: 12px;
+    
+}
+.navbar-text-right{
+    margin-top: 16px;
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: fonte;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 20px;
+    
 }
